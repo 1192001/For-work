@@ -4,7 +4,7 @@ for i  in range(10):
     number = random.randint(1,99)
     character = chr(number)
     print(character)
-    answer = input("Is this a valid character?")
+    answer = input("Is this a valid character?(Y/N) ")
     if answer == "Y":
         valid.append(character)
 print(valid)
